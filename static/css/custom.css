@@ -1,0 +1,359 @@
+/* for setting max container width */
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+
+
+body{
+    /*background-color:#272B30;*/
+    /*background-color:#191919;*/
+    /*background-image:url('/static/images/background/dark-wood.jpg');*/
+    background-image:url('/static/images/background/contemporary_china.png');
+
+    /*padding-top: 20px;*/
+    padding-bottom: 20px;
+}
+
+
+
+div.transbox
+{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:2px;
+    background-color: #ffffff;
+    /*border: 1px solid black;*/
+    opacity:0.7;
+    filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+div.transbox h3
+{
+    margin-top: 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #B2B2B2;
+    font-family: Arial;
+    font-weight: bold;
+}
+div.transbox p
+{
+    color: #000000;
+    font-family: Arial;
+    font-size:12pt;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+div.transbox p.middle
+{
+    border-bottom: 2px solid #E6E6E6;
+}
+div.transbox ul
+{
+    padding-bottom: 5px;
+}
+div.transbox li
+{
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+
+div.nontransbox
+{
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:20px;
+    background-color: #E8E8E8;
+    font-family: Arial;
+
+}
+div.nontransbox h1
+{
+    padding-top:10px;
+    margin-top:0px;
+    border-bottom: 1px solid #A0A0A0 ;
+    font-weight: bold;
+    color: #404040 ;
+}
+div.nontransbox p
+{
+    color: #484848;
+    font-size:12pt;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+div.nontransbox strong
+{
+    color: #484848;
+    font-size:12pt;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+div.nontransbox address
+{
+    color: #686868;
+    font-size:12pt;
+    padding-top: 0px;
+    padding-bottom: 5px;
+}
+
+
+
+
+div.menuSectionContainer
+{
+    margin-bottom: 20px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 7px;
+    background: #f1f1f1;
+}
+/*p.menuHdr
+{
+    padding-bottom:0px;margin-bottom:0px;color:#F36700;font-weight:800;    #FFA500
+}*/
+div.menuHdr
+{
+    /*margin-bottom: 5px;*/
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background: #FFA500;
+    font-family: Verdana;
+    font-size: 11pt;
+    color: black;
+    font-weight: 800;
+    border: 1px solid #ffb732;
+
+    letter-spacing: 1px;
+}
+
+div.menuItemContainer
+{
+    background:inherit;
+    margin-bottom:3px;
+    padding-top:5px;
+}
+div.menuItemLeft
+{
+    float:left;
+    background:inherit;
+}
+div.menuItemCenter
+{
+    background-image:url(/static/images/pixels/menuItemUnderline.png);
+    background-repeat:repeat-x;
+    background-position:50% 100%;
+}
+div.menuItemRight
+{
+    float:right;
+    background:inherit;
+}
+div.menuSubItemLeft
+{
+    padding-left:30px;
+}
+div.menuItemNum
+{
+    display:inline;
+    margin-right:6px;
+    font-size:inherit;
+    /*font-weight:800;*/
+    color:#F36700;
+}
+div.menuDescr
+{
+    font-style:italic;
+    font-size:9pt;
+    padding-left:30px;
+}
+div.menuItemVegitarian
+{
+    display:inline;
+    padding-left:2px;
+    font-size:inherit;
+    font-weight:800;
+    color:green;
+}
+div.menuItemChilli
+{
+    display:inline;
+    margin-right:5px;
+    background:inherit;
+}
+
+div.menuImgContainer
+{
+    width: 280px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+div.menuImgDescr
+{
+    padding-top: 2px;
+    font-size: 10pt;
+    font-family: Verdana;
+    color: #545454;
+}
+
+
+
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* navbar */
+.navbar{
+	/*background-color: #AD1D28;*/
+  	/*border-color: #911821;*/
+  	border: none;
+}
+
+p{
+	color: #C8C8C8;
+}
+
+#test{
+	color: orange;
+}
+
+
+
+.nav-link-text{color:#E18A07;}
+
+
+
+.header-address-text{
+    color:#E18A07;
+}
+
+
+.nav-link{
+    color:#E18A07;
+    font-weight:800;
+    display:inline;
+}
+.nav-link-spacer{
+    padding-left:10px;
+    padding-right:10px;
+    color:#E18A07;
+    font-weight:800;
+    display:inline;
+}
+
+
+
+/*******************
+** Navbar links
+*******************/
+
+/* non-active link */
+/*
+.navbar-default .navbar-nav > li > a {
+    color: #198c19;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #f36700;
+}
+*/
+
+/* active link */
+/*
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #f36700;
+}
+*/
+/*.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}*/
+
+
+
+
+
+.jumbotron {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: inherit;
+}
+
+
+
+
+@font-face {
+    font-family: Test;
+    
+    /*src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);*/
+    src: url(/static/fonts/AlexBrush-Regular.ttf);
+    
+    font-weight:400;
+}
+
+
+/*Fixes carousel banner left alignment issue*/
+.carousel-inner > .item > img { margin: 0 auto; }
+
+
+
+/*********
+* Footer
+*********/
+
+div.footer-container
+{
+    background:#191919;
+    padding-bottom:20px;
+}
+
+h3.footer-hdr
+{
+    color:#DDD;
+    padding-bottom:12px;
+}
+
+img.footer-social-media-img
+{
+    padding-bottom:15px;
+}
+
+img.footer-img
+{
+    vertical-align:text-middle;
+}
+
+p.footer-text
+{
+    /*color:#777;*/
+    color:#c3c3c3;
+}
+
+#map_canvas
+{
+    width: 235px;
+    height: 210px;
+}
+
+
+
+.fa-phone-square {
+    background: yellow;
+}
+
+
+div.shadow
+{
+    border: 1px solid #D8D8D8;
+    box-shadow: 0px 0px 20px 0px rgba(140, 140, 140, 1);
+}
