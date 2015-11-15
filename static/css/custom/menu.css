@@ -11,6 +11,10 @@ div.menuSectionContainerVeg
 {
     background: #ccffcc;
 }
+div.menuSectionContainerDessert
+{
+    background: #eee8f3;
+}
 div.menuSectionDescr
 {
     padding-top: 5px;
@@ -44,7 +48,11 @@ div.menuHdrVeg
     background: #00cc00;
     border: 1px solid #00e600;
 }
-
+div.menuHdrDessert
+{
+    background: #9975b9;
+    border: 1px solid #bba3d0;
+}
 
 div.menuSetMenuSectionHdrPrice
 {
@@ -91,7 +99,10 @@ div.menuItemNumVeg
 {
     color: green;
 }
-
+div.menuItemNumDessert
+{
+    color: #551a8b;
+}
 
 div.menuItemSingle
 {
@@ -194,6 +205,13 @@ div.linksHdr
     font-weight: 300;
     letter-spacing: 1px;
 }
+div.linksDescr
+{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 10pt;
+    color: black;
+}
 div.linksContainer
 {
     margin-bottom: 15px;
@@ -222,10 +240,10 @@ div.foodTypeHdr
     margin-top: 28px;
     padding-left: 2px;
     padding-bottom: 0px;
-    font-family: Arial;
+    font-family: Verdana;
     font-size: 13pt;
     color: black;
-    font-weight: 500;
+    font-weight: 700;
     letter-spacing: 1px;
 }
 hr.menu {
