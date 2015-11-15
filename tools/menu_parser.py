@@ -30,7 +30,7 @@ def main():
 
     cnt = 0
     # for item in items:
-    with open('menu_sections/sides.txt') as file:
+    with open('menu_sections/duck.txt') as file:
         for line in file:
             # 1. tidy text
             line = line.replace('..', ' ')

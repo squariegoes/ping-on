@@ -199,6 +199,11 @@ div.linksContainer
     margin-bottom: 15px;
     color: #e69500;
 }
+div.linksBlack
+{
+    color: black;
+    display:inline;
+}
 div.linksContainer a
 {
     color: inherit;
