@@ -15,6 +15,10 @@ def sit_in_menu():
 def takeaway_menu():
     return render_template('takeaway_menu.html')
 
+@app.route('/reservations')
+def reservations():
+    return render_template('reservations.html')
+
 @app.route('/contact')
 def gallery():
     return render_template('contact.html')

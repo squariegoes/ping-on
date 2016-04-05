@@ -43,7 +43,7 @@
               var marker = new google.maps.Marker({
                   position: myLatlng,
                   map: map,
-                  title: 'Golden Chopsticks'
+                  title: 'Ping On'
               });
             }
 
@@ -116,6 +116,7 @@
                                 </ul>
                             </li>
 
+                            <li {% if request.path == '/reservations' %}class="active"{% endif %}><a href="/reservations">Reservations</a></li>
 
                             <!--<li {% if request.path == '/sit_in_menu' %}class="active"{% endif %}><a href="/sit_in_menu">Sit In Menu</a></li>-->
                             <!--&lt;!&ndash;<li><a href="#" style="color:#777;">|</a></li>&ndash;&gt;-->
@@ -164,10 +165,6 @@
                         26-32 Deanhaugh Street, Edinburgh
                     </p>
 
-
-
-
-
                     <!--<span class="fa-stack fa-lg">-->
                       <!--<i class="fa fa-square-o fa-stack-2x"></i>-->
                       <!--<i class="fa fa-twitter fa-stack-1x"></i>-->
@@ -192,30 +189,6 @@
                     <p class="footer-text">Mon to Thurs: 12pm - 2pm &amp; 5.30pm - 11pm</p>
                     <p class="footer-text">Fri and Sat: 12pm - 2pm &amp; 5.30pm - 12am</p>
                     <p class="footer-text">Sun: 12pm - 11pm</p>
-
-                    <!--<table>-->
-                        <!--<tr>-->
-                            <!--<td>Mon to Thurs:</td>-->
-                            <!--<td>12pm - 2pm</td>-->
-                        <!--</tr>-->
-                        <!--<tr>-->
-                            <!--<td></td>-->
-                            <!--<td>5.30pm - 11.00pm</td>-->
-                        <!--</tr>-->
-                        <!--<tr>-->
-                            <!--<td>Fri and Sat:</td>-->
-                            <!--<td>12pm - 2pm</td>-->
-                        <!--</tr>-->
-                        <!--<tr>-->
-                            <!--<td></td>-->
-                            <!--<td>5.30pm - 12.00am</td>-->
-                        <!--</tr>-->
-                        <!--<tr>-->
-                            <!--<td>Sun:</td>-->
-                            <!--<td>5pm - 11pm</td>-->
-                        <!--</tr>-->
-                    <!--</table>-->
-
                 </div>
             </div>
 

@@ -1,0 +1,36 @@
+{% extends "template.html" %}
+
+
+{% block content %}
+
+    <div class="row" style="margin-bottom:20px">
+        <div class="col-xs-12">
+            <div class="nontransbox">
+                <h1>Reservations</h1>
+
+                <!--<address>-->
+                    <!--<strong>Ping On</strong><br>-->
+                    <!--26-32 Deanhaugh Street<br>-->
+                    <!--Edinburgh<br>-->
+                    <!--EH4 1LY<br>-->
+                    <!--Tel: 0131 332 3621-->
+                <!--</address>-->
+
+                <p style="margin-bottom:15px">Please click below to make a reservation.</p>
+
+                <!--wapper for Quandoo - an online reservation company -->
+                <div style="width:312px;display:block;padding:0px;margin:0px;position:relative;">
+                    <iframe src="https://widget.quandoo.co.uk/widget/reservation/merchant/vqBl4?aid=2&countryId=GBR" width="312"
+                            height="372" seamless="seamless" scrolling="no" frameborder="0"></iframe>
+                    <a href="http://www.quandoo.co.uk/ping-on-23086" target="_blank"
+                       style="width:312px;display:block;padding:0px;margin:0px;position:relative;"><img
+                            src="http://admin.quandoo.co.uk/awidget/poweredby.png"
+                            style="border:none;position:relative;width:312px;height:30px;" alt="Quandoo" title="Quandoo"></a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
